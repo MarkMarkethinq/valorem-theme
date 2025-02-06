@@ -592,6 +592,14 @@ video {
   display: block;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .text-center {
   text-align: center;
 }
