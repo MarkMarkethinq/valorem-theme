@@ -15,9 +15,7 @@ module.exports = {
         sans: ['Poppins','Segoe UI','sans-serif !important']
       },
       colors: {
-        primary: {"50":"#eef4fc","100":"#dce9fa","200":"#bad3f4","300":"#97bdef","400":"#75a7e9","500":"#4591e1","600":"#3774d4","700":"#2957c7","800":"#1b3bba","900":"#0d1ead","950":"#000d91"},
-        secondary: '#FBBC52',
-        secondaryHover: '#F9B033'
+        primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"}
       }
     },
 

@@ -8,8 +8,9 @@ require_once 'acf_blocks.php';
 
 // Load all necessary includes
 $includes = [
-    'includes/templates.php',
     'includes/theme-setup.php',
+    'includes/enqueue-scripts.php',
+    'includes/class-custom-walker.php'
 ];
 
 foreach ($includes as $file) {

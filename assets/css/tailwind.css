@@ -2,3 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
+/*GF styling*/
+
+
+input[type=text], input[type=email], input[type=tel], .ginput_container textarea, .gfield_select, #order_comments{
+    @apply  w-full p-4 rounded-lg  text-gray-400 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500
+}
+
+.gform_wrapper .gfield input[type=text], .gform_wrapper .gfield input[type=email], .gform_wrapper .gfield textarea, .gform_wrapper .gfield_select {
+    padding-left: 20px !important;
+}
+
+.gchoice input:checked{
+    @apply bg-primary-500
+}
+
+input[type='checkbox']:checked{
+    @apply bg-primary-500
+}
+
+.gform_button{
+    @apply cursor-pointer mt-2 rounded-lg !bg-primary-500 ring-primary-500 px-6 py-3 text-sm font-normal text-white shadow-sm hover:!bg-primary-600
+}
+
+#gform_submit_button_2{
+    @apply bg-white text-primary-500 px-6 py-2 rounded-lg shadow-sm max-w-fit
+}
+
+.gform_wrapper.gravity-theme .gfield_label{
+    @apply !text-sm !font-normal leading-6 text-gray-900
+}
+
+.gform-field-label--type-inline{
+    @apply text-sm font-normal leading-10 text-gray-400
+}
+
+.gform_wrapper.gravity-theme .gf_progressbar_percentage.percentbar_blue{
+    @apply !bg-primary-500
+}
+
+.gform_required_legend{
+    display: none;
+}
+
+.gform_wrapper.gravity-theme .gform_footer, .gform_wrapper.gravity-theme .gform_page_footer{
+    @apply !p-0
+}
+
+.gform_fields .gfield input::-webkit-input-placeholder{
+  @apply text-gray-400 font-normal
+}
+
+body .gform_wrapper ::placeholder,
+body .gform_wrapper ::-webkit-input-placeholder,
+body .gform_wrapper input[placeholder] {
+    @apply text-gray-400 font-normal
+}
+
