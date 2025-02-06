@@ -1,0 +1,1 @@
+<h1 class="text-4xl font-bold text-center text-red-500"><?php echo get_field('title'); ?></h1>

@@ -6,6 +6,8 @@ module.exports = {
     "./template-parts/**/*.php",
     "./assets/js/**/*.js",
     "./includes/popups/**/*.php",
+    "./includes/acf-fields/**/*.php",
+    "./resources/blocks/*.php",
   ],
   theme: {
     extend: {

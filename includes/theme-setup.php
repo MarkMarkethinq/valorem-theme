@@ -19,4 +19,15 @@ add_action( 'after_setup_theme', function () {
         'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',
     ] );
+
+    $defaults = array(
+        'height' => 100,
+        'width' => 400,
+        'flex-height' => true,
+        'flex-width' => true,
+        'header-text' => array('site-title', 'site-description'),
+        'unlink-homepage-logo' => true,
+    );
+    add_theme_support('custom-logo', $defaults);
 } );
+
