@@ -1,0 +1,133 @@
+/* Feedback Tool Styles */
+.feedback-mode * {
+    cursor: crosshair !important;
+}
+
+.feedback-mode *:hover {
+    outline: 2px solid #007bff !important;
+    outline-offset: 2px !important;
+}
+
+#feedback-tool {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.feedback-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+.feedback-button:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-button.active {
+    background: #dc3545;
+}
+
+.feedback-button.active:hover {
+    background: #c82333;
+}
+
+#feedback-form {
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+}
+
+#feedback-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-button,
+.cancel-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.submit-button {
+    background: #28a745;
+    color: white;
+}
+
+.submit-button:hover {
+    background: #218838;
+}
+
+.cancel-button {
+    background: #6c757d;
+    color: white;
+}
+
+.cancel-button:hover {
+    background: #5a6268;
+}
+
+/* Element highlight styles */
+.feedback-highlight {
+    position: relative;
+}
+
+.feedback-highlight::after {
+    content: attr(data-element-info);
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 10000;
+    transform: translate(10px, 10px);
+} 

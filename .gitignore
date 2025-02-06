@@ -1,0 +1,6 @@
+vendor/
+.env
+logs/
+.DS_Store
+shell.sh
+composer.lock
