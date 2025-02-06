@@ -7,7 +7,7 @@ function anna_init_block_types() {
     if( function_exists('acf_register_block_type') ) {
       /* Set gutenberg block names */
       $custom_blocks = array(
-        'Test'
+        'Test',
       );
       /* Create gutenberg blocks args */
       foreach ($custom_blocks as $block_key => $title) {
