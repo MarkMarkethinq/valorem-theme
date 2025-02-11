@@ -1,5 +1,5 @@
 <section id="diensten" class="bg-white">
-  <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 sm:py-16 lg:px-6 ">
+  <div class="gap-8 items-center pb-8 max-lg:pt-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 xl:gap-16 lg:pb-16 lg:pt-[8rem] lg:px-6 ">
     <?php if (get_field('grote_afbeelding')): ?>
       <img class="mb-4 w-full h-full object-cover lg:mb-0 rounded-lg" src="<?php echo get_field('grote_afbeelding')['url'] ?>" alt="<?php echo get_field('grote_afbeelding')['alt'] ?>">
     <?php endif; ?>

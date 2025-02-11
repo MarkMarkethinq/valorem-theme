@@ -29,8 +29,9 @@ jQuery(document).ready(function ($) {
             speed: 300,
             slidesToShow: 3,
             slidesToScroll: 1,
-            prevArrow: '<button type="button" class="slick-prev absolute top-1/2 -left-12 transform -translate-y-1/2"><svg class="w-8 h-8" fill="none" stroke="black" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>',
-            nextArrow: '<button type="button" class="slick-next absolute top-1/2 -right-12 transform -translate-y-1/2"><svg class="w-8 h-8" fill="none" stroke="black" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>',
+            adaptiveHeight: false,
+            prevArrow: '<button type="button" class="slick-prev absolute top-1/2 -translate-y-1/2" style="left: -4rem;"><svg class="w-8 h-8" fill="none" stroke="black" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>',
+            nextArrow: '<button type="button" class="slick-next absolute top-1/2 -translate-y-1/2" style="right: -4rem;"><svg class="w-8 h-8" fill="none" stroke="black" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>',
             responsive: [
                 {
                     breakpoint: 1024,
@@ -64,6 +65,13 @@ jQuery(document).ready(function ($) {
                     }
                 }
             ]
+        });
+
+        $('.projecten-carousel').on('setPosition', function() {
+            $(this).find('.slick-slide').height('auto');
+            var slickTrack = $(this).find('.slick-track');
+            var slickTrackHeight = $(slickTrack).height();
+            $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
         });
     }
 });

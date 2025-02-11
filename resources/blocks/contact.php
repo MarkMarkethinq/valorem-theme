@@ -1,5 +1,5 @@
 <section id="contact" class="bg-white dark:bg-gray-900">
-  <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+  <div class="max-w-screen-xl px-4 pb-8 max-lg:pt-16 mx-auto lg:px-6  lg:pt-[8rem] lg:pb-24">
     <div class="grid grid-cols-1 gap-6 text-center sm:gap-16 sm:grid-cols-2 lg:grid-cols-3">
         <?php if( have_rows('info') ): ?>
             <?php while( have_rows('info') ): the_row(); ?>

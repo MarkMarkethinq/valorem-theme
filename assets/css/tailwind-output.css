@@ -1127,14 +1127,6 @@ input:checked + .toggle-bg {
   top: 50%;
 }
 
-.top-\[61px\] {
-  top: 61px;
-}
-
-.top-\[60px\] {
-  top: 60px;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -1245,6 +1237,10 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .block {
@@ -1385,6 +1381,10 @@ input:checked + .toggle-bg {
 
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .shrink-0 {
@@ -1804,6 +1804,14 @@ input:checked + .toggle-bg {
   padding-top: 2rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1897,9 +1905,9 @@ input:checked + .toggle-bg {
   color: rgb(28 100 242 / var(--tw-text-opacity, 1));
 }
 
-.text-blue-800 {
+.text-blue-900 {
   --tw-text-opacity: 1;
-  color: rgb(30 66 159 / var(--tw-text-opacity, 1));
+  color: rgb(35 56 118 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-300 {
@@ -1935,11 +1943,6 @@ input:checked + .toggle-bg {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-900 {
-  --tw-text-opacity: 1;
-  color: rgb(35 56 118 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0 {
@@ -2196,6 +2199,11 @@ html {
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
 }
 
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -2242,6 +2250,12 @@ html {
   --tw-ring-color: rgb(38 58 87 / var(--tw-ring-opacity, 1));
 }
 
+@media not all and (min-width: 1024px) {
+  .max-lg\:pt-16 {
+    padding-top: 4rem;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:mx-auto {
     margin-left: auto;
@@ -2283,6 +2297,14 @@ html {
   .sm\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .sm\:pt-32 {
+    padding-top: 8rem;
   }
 
   .sm\:text-center {
@@ -2335,18 +2357,6 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .lg\:static {
-    position: static;
-  }
-
-  .lg\:relative {
-    position: relative;
-  }
-
-  .lg\:top-0 {
-    top: 0px;
-  }
-
   .lg\:order-1 {
     order: 1;
   }
@@ -2383,10 +2393,6 @@ html {
 
   .lg\:mt-24 {
     margin-top: 6rem;
-  }
-
-  .lg\:block {
-    display: block;
   }
 
   .lg\:flex {
@@ -2441,10 +2447,6 @@ html {
     gap: 2rem;
   }
 
-  .lg\:bg-transparent {
-    background-color: transparent;
-  }
-
   .lg\:p-0 {
     padding: 0px;
   }
@@ -2482,6 +2484,26 @@ html {
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+
+  .lg\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .lg\:pt-\[8rem\] {
+    padding-top: 8rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .lg\:text-2xl {
