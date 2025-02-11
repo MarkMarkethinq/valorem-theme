@@ -22,11 +22,11 @@ input[type='checkbox']:checked{
 }
 
 .gform_button{
-    @apply cursor-pointer mt-2 rounded-lg !bg-primary-500 ring-primary-500 px-6 py-3 text-sm font-normal text-white shadow-sm hover:!bg-primary-600
+    @apply cursor-pointer mt-2 rounded-lg !bg-primary-900  ring-primary-900 px-6 py-3 text-sm font-normal text-white shadow-sm hover:!bg-primary-950
 }
 
 #gform_submit_button_2{
-    @apply bg-white text-primary-500 px-6 py-2 rounded-lg shadow-sm max-w-fit
+    @apply bg-white text-primary-900 px-6 py-2 rounded-lg shadow-sm max-w-fit
 }
 
 .gform_wrapper.gravity-theme .gfield_label{
@@ -57,5 +57,13 @@ body .gform_wrapper ::placeholder,
 body .gform_wrapper ::-webkit-input-placeholder,
 body .gform_wrapper input[placeholder] {
     @apply text-gray-400 font-normal
+}
+
+.custom-menu-item{
+    @apply relative after:absolute after:bg-primary-900 after:bottom-0 after:h-0.5 after:w-0 after:left-0 after:transition-all after:duration-300 hover:after:w-full
+}
+
+html {
+    @apply scroll-smooth
 }
 
