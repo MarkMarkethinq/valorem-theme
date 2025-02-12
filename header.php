@@ -22,7 +22,15 @@
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="/" class="flex items-center">
                 <?php if(has_custom_logo()): ?>
-                    <?php the_custom_logo(); ?>
+                    <div class="h-12 flex items-center">
+                        <?php 
+                        $custom_logo_id = get_theme_mod('custom_logo');
+                        $logo = wp_get_attachment_image($custom_logo_id, 'full', false, array(
+                            'class' => 'h-12 w-auto object-contain',
+                        ));
+                        echo $logo;
+                        ?>
+                    </div>
                 <?php else: ?>
                     <span class="text-xl font-semibold"><?php bloginfo('name'); ?></span>
                 <?php endif; ?>

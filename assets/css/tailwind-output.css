@@ -1330,6 +1330,10 @@ input:checked + .toggle-bg {
   height: 350px;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .min-h-14 {
   min-height: 3.5rem;
 }
@@ -1376,6 +1380,10 @@ input:checked + .toggle-bg {
 
 .w-\[350px\] {
   width: 350px;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-3xl {
@@ -1717,6 +1725,11 @@ input:checked + .toggle-bg {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
