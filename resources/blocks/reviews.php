@@ -1,11 +1,11 @@
 <section id="reviews" class="bg-primary-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm mb-8 lg:mb-16">
+        <div class="mx-auto max-w-screen-sm mb-6 lg:mb-16">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel'); ?></h2>
             <div class="font-light text-white sm:text-xl"><?php echo get_field('tekst'); ?></div>
         </div> 
         <div id="testimonial-carousel" class="relative" data-carousel="slide">
-            <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-52 rounded-lg sm:h-48">
+            <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-40 sm:h-36 rounded-lg">
                 <?php if (have_rows('review')): ?>
                   <?php while (have_rows('review')): the_row(); ?>
                 <figure class="hidden mx-auto w-full max-w-screen-md" data-carousel-item>
@@ -24,15 +24,15 @@
                 <?php endwhile; ?>
                 <?php endif; ?>
             </div>
-            <div class="flex justify-center items-center -mt-14">
+            <div class="flex justify-center items-center mt-4">
                 <button type="button" class="flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
-                    <span class="text-white ">
+                    <span class="text-white hover:text-gray-200 transition-colors">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
                         <span class="hidden">Previous</span>
                     </span>
                 </button>
                 <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
-                    <span class="text-white ">
+                    <span class="text-white hover:text-gray-200 transition-colors">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         <span class="hidden">Next</span>
                     </span>
