@@ -19,7 +19,7 @@
                         <div class="mb-2">
                             <span class="inline-block bg-primary-100 text-primary-900 text-sm md:text-base font-semibold mr-2 px-2.5 py-0.5 rounded"><?php echo get_sub_field('categorie'); ?></span>
                         </div>
-                        <h2 class="mb-7 text-2xl lg:h-14 max-lg:h-20 font-bold tracking-tight text-gray-900">
+                        <h2 class="mb-7 text-2xl lg:h-12 font-bold tracking-tight text-gray-900">
                             <?php echo get_sub_field('project_titel'); ?>
                         </h2>
                         <div class="text-xl font-light text-gray-500"><?php echo get_sub_field('beschrijving'); ?></div>

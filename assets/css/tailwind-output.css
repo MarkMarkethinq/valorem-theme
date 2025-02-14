@@ -2538,6 +2538,10 @@ html {
     height: 600px;
   }
 
+  .lg\:h-12 {
+    height: 3rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
