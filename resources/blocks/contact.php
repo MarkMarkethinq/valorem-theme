@@ -1,7 +1,7 @@
 <div id="contact" class="relative isolate bg-white">
   <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
     <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-36">
-      <div class="absolute inset-y-0 left-0 -z-10 w-1/2 overflow-hidden bg-gray-100 ring-1 ring-gray-900/10">
+      <div class="absolute inset-y-0 left-0 -z-10 w-full lg:!w-1/2 overflow-hidden bg-gray-100 ring-1 ring-gray-900/10">
         <svg class="absolute inset-0 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
           <defs>
             <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="100%" y="-1" patternUnits="userSpaceOnUse">
@@ -35,7 +35,7 @@
         </dl>
       </div>
     </div>
-    <div class="my-auto max-w-3xl px-6">
+    <div class="m-auto max-w-3xl p-6">
         <?php echo do_shortcode(get_field('formulier_shortcode')); ?>
     </div>
   </div>

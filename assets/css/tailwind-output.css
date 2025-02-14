@@ -1810,6 +1810,10 @@ input:checked + .toggle-bg {
   padding: 1rem;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2565,6 +2569,10 @@ html {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:\!w-1\/2 {
+    width: 50% !important;
   }
 
   .lg\:max-w-lg {
