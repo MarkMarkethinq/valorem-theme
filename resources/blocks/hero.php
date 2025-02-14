@@ -4,7 +4,7 @@
           <h1 class="mb-4 text-4xl md:text-4xl lg:text-6xl font-extrabold tracking-tight leading-tight text-white"><?php echo get_field('titel'); ?></h1>
           <div class="mb-6 font-light text-gray-300 text-2xl"><?php echo get_field('tekst'); ?></div>
           <?php if( get_field('knop') ): ?>
-          <a href="<?php echo get_field('knop')['url']; ?>" class="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-900 hover:bg-primary-950 focus:ring-4 focus:outline-none focus:ring-primary-900 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+          <a href="<?php echo get_field('knop')['url']; ?>" class="inline-flex items-center py-3 px-5 font-medium text-center text-white rounded-lg bg-primary-900 hover:bg-primary-950 focus:ring-4 focus:outline-none focus:ring-primary-900">
               <?php echo get_field('knop')['title']; ?>
           </a>
           <?php endif; ?>

@@ -9,10 +9,11 @@ function anna_init_block_types() {
       $custom_blocks = array(
         'Projecten',
         'Reviews',
-        'Contact',
+        'Contact-oud',
         'Hero',
         'Over-ons',
-        'Diensten'
+        'Diensten',
+        'Contact'
       );
       /* Create gutenberg blocks args */
       foreach ($custom_blocks as $block_key => $title) {

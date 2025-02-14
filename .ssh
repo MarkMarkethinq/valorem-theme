@@ -1,2 +1,0 @@
-#!/bin/bash 
-ssh geregeldonline@vps8558.zxcs.nl -p 7685
