@@ -1,8 +1,8 @@
 <section id="projecten" class="bg-white">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900"><?php echo get_field('titel'); ?></h2>
-          <div class="font-light text-gray-500 text-xl lg:text-2xl"><?php echo get_field('tekst'); ?></div>
+          <h2 class="mb-4 max-lg:text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900"><?php echo get_field('titel'); ?></h2>
+          <div class="font-light text-gray-500 max-lg:text-xl lg:text-2xl"><?php echo get_field('tekst'); ?></div>
       </div> 
       <div class="projecten-carousel relative mx-4 lg:mx-12">
         <?php if (have_rows('projecten')): ?>
@@ -19,7 +19,7 @@
                         <div class="mb-2">
                             <span class="inline-block bg-primary-100 text-primary-900 text-sm md:text-base font-semibold mr-2 px-2.5 py-0.5 rounded"><?php echo get_sub_field('categorie'); ?></span>
                         </div>
-                        <h2 class="mb-3 text-2xl min-h-14 font-bold tracking-tight text-gray-900">
+                        <h2 class="mb-7 text-2xl lg:h-14 max-lg:h-20 font-bold tracking-tight text-gray-900">
                             <?php echo get_sub_field('project_titel'); ?>
                         </h2>
                         <div class="text-xl font-light text-gray-500"><?php echo get_sub_field('beschrijving'); ?></div>

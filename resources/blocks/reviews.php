@@ -1,8 +1,8 @@
 <section id="reviews" class="bg-primary-900">
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div class="mx-auto max-w-screen-sm mb-6 lg:mb-16">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel'); ?></h2>
-            <div class="font-light text-white text-xl"><?php echo get_field('tekst'); ?></div>
+            <h2 class="mb-4 max-lg:text-3xl lg:text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel'); ?></h2>
+            <div class="font-light text-white max-lg:text-xl lg:text-2xl"><?php echo get_field('tekst'); ?></div>
         </div> 
         <div id="testimonial-carousel" class="relative" data-carousel="slide">
             <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-40 sm:h-36 rounded-lg">

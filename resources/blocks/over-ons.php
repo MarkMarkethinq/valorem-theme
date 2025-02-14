@@ -1,7 +1,7 @@
 <section id="over-mij" class="bg-primary-900">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-12 lg:py-16 lg:px-6">
         <div class="font-light text-white text-2xl lg:col-span-7">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel') ?></h2>
+            <h2 class="mb-4 max-lg:text-3xl lg:text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel') ?></h2>
             <p class="mb-4"><?php echo get_field('tekst') ?></p>
             <?php if (get_field('knop')): ?>
             <a href="<?php echo get_field('knop')['url']; ?>" target="<?php echo get_field('knop')['target']; ?>" class="inline-flex text-base items-center py-3 mt-8 mb-6 px-5 font-medium text-center border border-gray-300 text-white rounded-lg hover:bg-white hover:text-black focus:ring-4 focus:outline-none focus:ring-primary-900">

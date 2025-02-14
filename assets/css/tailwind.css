@@ -6,7 +6,7 @@
 
 
 input[type=text], input[type=email], input[type=tel], .ginput_container textarea, .gfield_select, #order_comments{
-    @apply  w-full p-4 rounded-lg  text-gray-400 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500
+    @apply  w-full p-4 rounded-lg  text-gray-400 bg-gray-50 border-gray-300 focus:ring-primary-900 focus:border-primary-900
 }
 
 .gform_wrapper .gfield input[type=text], .gform_wrapper .gfield input[type=email], .gform_wrapper .gfield textarea, .gform_wrapper .gfield_select {
@@ -14,15 +14,15 @@ input[type=text], input[type=email], input[type=tel], .ginput_container textarea
 }
 
 .gchoice input:checked{
-    @apply bg-primary-500
+    @apply bg-primary-900
 }
 
 input[type='checkbox']:checked{
-    @apply bg-primary-500
+    @apply bg-primary-900
 }
 
 .gform_button{
-    @apply cursor-pointer mt-2 rounded-lg !bg-primary-900  ring-primary-900 px-6 py-3 text-sm font-normal text-white shadow-sm hover:!bg-primary-950
+    @apply cursor-pointer mt-2 rounded-lg !bg-primary-900  ring-primary-900 px-6 py-3 !text-base font-normal text-white shadow-sm hover:!bg-primary-950
 }
 
 #gform_submit_button_2{
@@ -38,7 +38,7 @@ input[type='checkbox']:checked{
 }
 
 .gform_wrapper.gravity-theme .gf_progressbar_percentage.percentbar_blue{
-    @apply !bg-primary-500
+    @apply !bg-primary-900
 }
 
 .gform_required_legend{

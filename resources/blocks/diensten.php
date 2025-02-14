@@ -4,7 +4,7 @@
       <img class="mb-4 w-full h-full object-cover lg:mb-0 rounded-lg" src="<?php echo get_field('grote_afbeelding')['url'] ?>" alt="<?php echo get_field('grote_afbeelding')['alt'] ?>">
     <?php endif; ?>
       <div class="text-gray-500 text-2xl">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 "><?php echo get_field('titel') ?></h2>
+          <h2 class="mb-4 max-lg:text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 "><?php echo get_field('titel') ?></h2>
           <div class="mb-8 font-light "><?php echo get_field('tekst') ?></div>
           <div class="py-8 mb-6 border-t border-b border-gray-200 ">
               <?php if(have_rows('diensten')): ?>

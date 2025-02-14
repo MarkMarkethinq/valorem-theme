@@ -8,8 +8,8 @@
                         <img src="<?php echo get_sub_field('icoon')['url']; ?>" alt="<?php echo get_sub_field('icoon')['alt']; ?>">
                     </figure>
                     <div class="mt-4">
-                        <h3 class="text-xl font-bold text-gray-900 dark:text-white"><?php echo get_sub_field('titel'); ?></h3>
-                        <div class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400"> <?php echo get_sub_field('tekst'); ?></div>
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white"><?php echo get_sub_field('titel'); ?></h3>
+                        <div class="mt-1 text-xl font-normal text-gray-500 dark:text-gray-400"> <?php echo get_sub_field('tekst'); ?></div>
                     </div>
                 </div>
             <?php endwhile; ?>
