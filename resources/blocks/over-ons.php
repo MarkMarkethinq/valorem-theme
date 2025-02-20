@@ -12,7 +12,7 @@
         </div>
         <div class="grid grid-cols-2 gap-4  lg:col-span-5">
             <?php if (get_field('afbeelding_links')): ?>
-            <img class="mx-auto w-[350px] h-[350px] max-lg:rounded-full lg:rounded-lg md:w-[450px] md:h-[450px] lg:w-full lg:h-[600px] object-cover object-top col-span-2" src="<?php echo get_field('afbeelding_links')['url'] ?>" alt="<?php echo get_field('afbeelding_links')['alt'] ?>">
+            <img class="mx-auto w-[350px] h-[350px] max-lg:rounded-full lg:rounded-lg md:w-[450px] md:h-[450px] lg:w-full object-cover object-top col-span-2" src="<?php echo get_field('afbeelding_links')['url'] ?>" alt="<?php echo get_field('afbeelding_links')['alt'] ?>">
             <?php endif; ?>
         </div>
     </div>
