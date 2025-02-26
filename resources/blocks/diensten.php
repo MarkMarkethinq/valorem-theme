@@ -23,7 +23,7 @@
                 <?php endwhile; ?>
               <?php endif; ?>
           </div>
-          <p class="text-sm"><?php echo get_field('tekst_onder') ?></p>
+          <p class="text-2xl font-light"><?php echo get_field('tekst_onder') ?></p>
       </div>
   </div>
 </section>
