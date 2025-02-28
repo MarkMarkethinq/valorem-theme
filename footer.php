@@ -10,7 +10,7 @@
         <hr class="my-6 border-white sm:mx-auto lg:my-8" />
         <div class="flex flex-row items-center justify-between gap-2">
             <span class="text-[11px] sm:text-sm text-white shrink">
-                <p>© <?php echo date('Y'); ?> Valorem Consultancy. Alle rechten voorbehouden.</p>
+                <p>© <?php echo date('Y'); ?> Valorem Consultancy. Alle rechten voorbehouden. Ontwikkeld door <a href="https://developing.nl" target="_blank">Developing.</a></p>
             </span>
             <div class="flex justify-center shrink-0">
                 <a href="https://www.linkedin.com/in/bart-van-der-wolf-573a26b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-white">
