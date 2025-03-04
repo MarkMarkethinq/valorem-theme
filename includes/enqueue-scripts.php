@@ -9,5 +9,5 @@ add_action('wp_enqueue_scripts', function () {
     // Scripts
     wp_enqueue_script('flowbite', get_template_directory_uri() . '/node_modules/flowbite/dist/flowbite.min.js', [], '1.0', true);
     wp_enqueue_script('slick', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), null, true);
-    wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery', 'slick'], '1.0', true);
+    wp_enqueue_script('app-js', get_template_directory_uri() . '/assets/js/app.js', ['jquery', 'slick', 'flowbite'], '1.0', true);
 });

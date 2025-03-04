@@ -2029,6 +2029,11 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(240 82 82 / var(--tw-text-opacity, 1));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -2434,16 +2439,12 @@ html {
     position: static;
   }
 
-  .lg\:order-2 {
-    order: 2;
+  .lg\:order-1 {
+    order: 1;
   }
 
   .lg\:order-3 {
     order: 3;
-  }
-
-  .lg\:order-1 {
-    order: 1;
   }
 
   .lg\:col-span-5 {
@@ -2505,24 +2506,16 @@ html {
     width: 50% !important;
   }
 
-  .lg\:\!w-2\/4 {
-    width: 50% !important;
-  }
-
   .lg\:w-1\/4 {
     width: 25%;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
-  .lg\:w-2\/4 {
-    width: 50%;
-  }
-
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:max-w-lg {
@@ -2543,14 +2536,6 @@ html {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:\!justify-end {
-    justify-content: flex-end !important;
-  }
-
-  .lg\:justify-end {
-    justify-content: flex-end;
   }
 
   .lg\:gap-8 {

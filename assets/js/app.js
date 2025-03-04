@@ -4,7 +4,7 @@ jQuery(document).ready(function ($) {
     if (carousel) {
         const options = {
             defaultPosition: 0,
-            interval: 3000,
+            interval: 7000,
             indicators: {
                 activeClasses: 'bg-white',
                 inactiveClasses: 'bg-white/50 hover:bg-white',
@@ -18,6 +18,18 @@ jQuery(document).ready(function ($) {
                 item.classList.remove('hidden');
             }
         });
+
+        // Initialiseer de carousel met Flowbite
+        const carouselInstance = new Carousel(carousel, options);
+        
+        // Stel de interval direct in
+        carousel.setAttribute('data-carousel-interval', '10000');
+        if (carouselInstance.interval) {
+            clearInterval(carouselInstance.interval);
+            carouselInstance.interval = setInterval(() => {
+                carouselInstance.next();
+            }, 10000);
+        }
     }
 
     // Projecten carousel initialisatie

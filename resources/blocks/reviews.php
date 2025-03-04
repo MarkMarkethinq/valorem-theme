@@ -4,7 +4,7 @@
             <h2 class="mb-4 max-lg:text-3xl lg:text-4xl tracking-tight font-extrabold text-white"><?php echo get_field('titel'); ?></h2>
             <div class="font-light text-white max-lg:text-xl lg:text-2xl"><?php echo get_field('tekst'); ?></div>
         </div> 
-        <div id="testimonial-carousel" class="relative" data-carousel="slide">
+        <div id="testimonial-carousel" class="relative" data-carousel="slide" data-carousel-interval="7000">
             <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-40 sm:h-36 rounded-lg">
                 <?php if (have_rows('review')): ?>
                   <?php while (have_rows('review')): the_row(); ?>
