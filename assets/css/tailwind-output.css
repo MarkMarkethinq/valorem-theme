@@ -1183,6 +1183,10 @@ input:checked + .toggle-bg {
   margin-bottom: 0.25rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1283,6 +1287,10 @@ input:checked + .toggle-bg {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .size-full {
   width: 100%;
   height: 100%;
@@ -1334,6 +1342,10 @@ input:checked + .toggle-bg {
 
 .h-full {
   height: 100%;
+}
+
+.h-44 {
+  height: 11rem;
 }
 
 .w-1\/2 {
@@ -1969,6 +1981,10 @@ input:checked + .toggle-bg {
   font-weight: 600;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1981,12 +1997,21 @@ input:checked + .toggle-bg {
   line-height: 2.25rem;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
 
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+
+.text-\[\#f56e28\] {
+  --tw-text-opacity: 1;
+  color: rgb(245 110 40 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-600 {
@@ -2009,6 +2034,11 @@ input:checked + .toggle-bg {
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+}
+
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
@@ -2029,17 +2059,16 @@ input:checked + .toggle-bg {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(240 82 82 / var(--tw-text-opacity, 1));
-}
-
 .opacity-0 {
   opacity: 0;
 }
 
 .opacity-100 {
   opacity: 1;
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .bg-blend-multiply {
@@ -2387,6 +2416,10 @@ html {
     height: 9rem;
   }
 
+  .sm\:h-48 {
+    height: 12rem;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2402,6 +2435,11 @@ html {
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:text-sm {
@@ -2421,6 +2459,10 @@ html {
 
   .md\:w-\[450px\] {
     width: 450px;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:text-4xl {
@@ -2500,6 +2542,10 @@ html {
 
   .lg\:h-64 {
     height: 16rem;
+  }
+
+  .lg\:h-40 {
+    height: 10rem;
   }
 
   .lg\:\!w-1\/2 {
@@ -2614,6 +2660,11 @@ html {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-6xl {

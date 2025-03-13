@@ -5,7 +5,7 @@
             <div class="font-light text-white max-lg:text-xl lg:text-2xl"><?php echo get_field('tekst'); ?></div>
         </div> 
         <div id="testimonial-carousel" class="relative" data-carousel="slide" data-carousel-interval="7000">
-            <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-40 sm:h-36 rounded-lg">
+            <div class="overflow-x-hidden overflow-y-visible relative mx-auto max-w-screen-md h-48 sm:h-48 rounded-lg">
                 <?php if (have_rows('review')): ?>
                   <?php while (have_rows('review')): the_row(); ?>
                 <figure class="hidden mx-auto w-full max-w-screen-md" data-carousel-item>
